@@ -1,5 +1,5 @@
 package prototype;
-//继承了克隆功能的具体类
+//长方形类
 public class Rectangle extends shape{
 public Rectangle() {
 	type="Rectangle";

@@ -1,6 +1,10 @@
 package prototype;
+
+import java.io.Serializable;
+
+//所有图像类的基类
 //实现Cloneable接口使用克隆功能
-public abstract class shape implements Cloneable{
+public abstract class shape implements Cloneable,Serializable{
 	private String id;
 	protected String type;
 	abstract void draw();

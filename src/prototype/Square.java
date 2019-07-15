@@ -1,5 +1,5 @@
 package prototype;
-
+//正方形类
 public class Square extends shape {
 
 	public Square() {
